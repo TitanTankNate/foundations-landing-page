@@ -170,12 +170,13 @@ button {
 }
 
 .info-header {
-    /* Display declarations */
-
     /*Font and color declarations */
     font-size: 36px;
     font-weight: 900;
-    color: #1f2937
+    color: #1f2937;
+
+    /* CBPM */
+    padding-bottom: 12px;
 }
 
 .card-container {
@@ -201,7 +202,7 @@ button {
 
     /* CBPM */
     border-style: solid;
-    border-radius: 5px;
+    border-radius: 10px;
     border-color: #3882f6;
 }
 
@@ -247,6 +248,90 @@ button {
     margin: 0;
 }
 
+
+/* Hero Container ccccccccccccccccccccccccc*/
+.cta-container {
+    /* Display declarations */
+    display: flex;
+    justify-content: center;
+
+    /* Font and color declarations */
+    background-color: #f9faf8;
+
+    /* CBPM */
+    margin: 0;
+    padding: 48px 150px;
+}
+
+.cta-decor-container {
+    /* Display declarations */
+    display: flex;
+    justify-content: center;
+    flex: 1;
+
+    /* Font and color declarations */
+    background-color: #3882f6;
+
+    /* CBPM */
+    margin: 0;
+    padding: 36px 96px;
+
+    border-radius: 10px;
+
+}
+
+.cta-text {
+    /* Font and color declarations */
+    color: #f9faf8;
+
+    /* CBPM */
+    margin-right: 12px;
+}
+
+.cta-header-text {
+    /* Font and color declarations */
+    font-size: 20px;
+    font-weight: 600;
+
+    /* CBPM */
+    margin: 0;
+    padding-bottom: 4px;
+}
+
+.cta-body-text {
+    /* Font and color declarations */
+    font-size: 18px;
+    font-weight: 400;
+
+    /* CBPM */
+    margin: 0;
+    padding: 0;
+}
+
+.cta-decor-container .signup-button {
+    /* CBPM */
+    margin: 0;
+    padding: 4px 36px;
+
+    border-style: solid;
+    border-width: 2px;
+    border-color: #f9faf8;
+}
+
+
+
+/* FOOTER ---------------------------------------------------------------*/
+.footer {
+    /* Display declarations */
+    display: flex;
+    justify-content: center;
+    
+    /* Font and color declarations */
+    font-size: 14px;
+    font-weight: 300;
+    color: #f9faf8;
+
+}
 
 
 /* DEBUG BORDERS */
