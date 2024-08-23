@@ -44,6 +44,8 @@ button {
 
 }
 
+
+
 /* HEADER CONTENT -------------------------------------------------------*/
 .header {
     /* Display declarations */
@@ -51,7 +53,7 @@ button {
     justify-content: space-between;
 
     /* CBPM */
-    padding: 0 200px 0px 72px;
+    padding: 0 200px 0px 200px;
 }
 
 .header-logo {
@@ -87,12 +89,15 @@ button {
     color: #e5e7eb;
 }
 
+
+
 /* CONTAINERS -----------------------------------------------------------*/
 .content {
     /* Display declarations */
     display: flex;
     flex-direction: column;
 }
+
 
 /* Hero Container ccccccccccccccccccccccccc*/
 .hero-container {
@@ -110,7 +115,7 @@ button {
     flex: 1;
 
     /* CBPM */
-    padding: 12px 12px 12px 0;
+    padding: 12px 24px 12px 0;
 }
 
 .hero-main-text {
@@ -147,7 +152,6 @@ button {
     height: 225px;
     background-color: grey;
 }
-
 
 
 /* Info Container ccccccccccccccccccccccccc*/
@@ -206,6 +210,41 @@ button {
     font-size: 18px;
     font-weight: 300;
     text-align: center;
+}
+
+
+/* Quote Container ccccccccccccccccccccccccc*/
+.quote-container {
+    /* Font and color declarations */
+    background-color: #e5e7eb;
+
+    /* CBPM */
+    padding: 96px 250px;
+}
+
+.quote-text {
+    /* Font and color declarations */
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+
+    /* CBPM */
+    padding: 0;
+    margin: 0
+}
+
+.quote-attribution {
+    /* Display declarations */
+    display: flex;
+    justify-content: flex-end;
+
+    /* Font and color declarations */
+    font-size: 24px;
+    font-weight: 600;
+
+    /* CBPM */
+    padding: 0;
+    margin: 0;
 }
 
 
