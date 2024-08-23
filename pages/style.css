@@ -51,7 +51,7 @@ button {
     justify-content: space-between;
 
     /* CBPM */
-    padding: 0 200px 200px 72px;
+    padding: 0 200px 0px 72px;
 }
 
 .header-logo {
@@ -102,7 +102,7 @@ button {
     align-items: center;
 
     /* CBPM */
-    padding: 0 200px;
+    padding: 48px 200px;
 }
 
 .hero-text {
@@ -141,7 +141,6 @@ button {
 .hero-image {
     /* Display declarations */
     flex: 0 0 auto;
-    align-items: center;
 
     /* Constraints and transforms */
     width: 400px;
@@ -153,13 +152,61 @@ button {
 
 /* Info Container ccccccccccccccccccccccccc*/
 .info-container {
+    /* Display declarations */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
     /* Font and color declarations */
     background-color: #f9faf8;
 
     /* CBPM */
-    padding: 0 200px;
+    padding: 48px 250px;
 }
 
+.info-header {
+    /* Display declarations */
+
+    /*Font and color declarations */
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937
+}
+
+.card-container {
+    /* Display declarations */
+    display: flex;
+}
+
+.info-card {
+    /* Display declarations */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1 1 100px;
+
+    /* CBPM */
+    margin: 0px 12px;
+}
+
+.image-box {
+    /* Constraints and transforms */
+    width: 100px;
+    height: 100px;
+
+    /* CBPM */
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #3882f6;
+}
+
+.info-card p {
+    /* Font and color declarations */
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+}
 
 
 
