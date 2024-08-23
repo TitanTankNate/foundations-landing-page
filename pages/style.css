@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* TYPE GENERICS --------------------------------------------------------*/
+body {
+    /* Display declarations */
+    display: flex;
+    flex-direction: column;
+
+    /* Font and color declarations */
+    font-family: "Roboto", sans-serif;
+    background-color: #1f2937;
+
+    /* CBPM */
+    padding: 12px 0;
+    margin: 0;
+}
+
+ul {
+    /* Remove ul default formatting */
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    /* Remove a default formatting */
+    text-decoration: none;
+    color: inherit;
+}
+
+button {
+    /* Font and color declarations*/
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #3882f6;
+    color: #e5e7eb;
+
+    /* Shape and effects */
+    border-radius: 5px;
+    border-width: 0;
+
+    /* CPBM */
+    padding: 8px 36px;
+
+}
+
+/* HEADER CONTENT -------------------------------------------------------*/
+.header {
+    /* Display declarations */
+    display: flex;
+    justify-content: space-between;
+
+    /* CBPM */
+    padding: 0 200px 200px 72px;
+}
+
+.header-logo {
+    /* Display declarations */
+    text-wrap: nowrap;
+
+    /* Font and color declarations */
+    font-size: 24px;
+    font-weight: 600;
+    color: #f9faf8;
+
+    /* CBPM */
+    margin-right: 24px;
+}
+
+.nav-links {
+    /* Display declarations */
+    display: flex;
+    text-wrap: nowrap;
+    gap: 24px;
+}
+
+.nav-links li {
+    /* Display declarations */
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.nav-links, .hero-body-text {
+    /* Font and color declarations */
+    font-size: 18px;
+    font-weight: 400;
+    color: #e5e7eb;
+}
+
+/* CONTAINERS -----------------------------------------------------------*/
+.content {
+    /* Display declarations */
+    display: flex;
+    flex-direction: column;
+}
+
+/* Hero Container ccccccccccccccccccccccccc*/
+.hero-container {
+    /* Display declarations */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* CBPM */
+    padding: 0 200px;
+}
+
+.hero-text {
+    /* Display declarations */
+    flex: 1;
+
+    /* CBPM */
+    padding: 12px 12px 12px 0;
+}
+
+.hero-main-text {
+    /* Font and color declarations */
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+
+    /* CBPM */
+    padding: 0;
+    margin: 0;
+}
+
+.hero-body-text {
+    /* Display declarations */
+
+    /* CBPM */
+    padding: 0;
+    margin: 0 0 12px 0;
+}
+
+/* .hero-body-text merged with .nav-links above */
+
+.signup-button {
+    /* Display declarations */
+}
+
+.hero-image {
+    /* Display declarations */
+    flex: 0 0 auto;
+    align-items: center;
+
+    /* Constraints and transforms */
+    width: 400px;
+    height: 225px;
+    background-color: grey;
+}
+
+
+
+/* Info Container ccccccccccccccccccccccccc*/
+.info-container {
+    /* Font and color declarations */
+    background-color: #f9faf8;
+
+    /* CBPM */
+    padding: 0 200px;
+}
+
+
+
+
+/* DEBUG BORDERS */
+/* border-style: solid;
+border-width: 2px;
+border-color: red;*/
